@@ -1,0 +1,120 @@
+html, body {
+    min-width: 600px;
+    background-color: #cfcec5;
+    margin: 0 50px;
+    font-family: 'Heebo', sans-serif;
+    color: #605a50;
+}
+
+h1, h3 {
+    text-align: center;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+.title:hover {
+    color: #605a50;
+}
+
+a {
+    text-decoration: none;
+    color: #605a50;
+    font-weight: bold;
+}
+a:hover {
+    color: #f8e8ce;
+}
+
+button {
+    border: 1px solid #918878;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 0.5em;
+    background-color: #918878;
+    color: #f8e8ce; 
+    font-family: 'Heebo', sans-serif;
+    font-weight: bold;
+    transition: background-color 0.25s color 0.25s;
+}
+
+button:hover {
+    background-color: #605a50;
+    color: #918878; 
+    
+}
+.header {
+    position: sticky;
+    top: 0px;
+    background-color: #cfcec5;
+    
+    /* border: 1px solid #918878; */
+}
+.navigation {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.navigation * {
+    text-decoration: underline;
+    padding: 0 5px;
+}
+.contact {
+    
+    border: 1px solid  #918878;
+    background-color: #c4b8a3;
+    border-radius: 25px;
+    transition: border-color 0.28s, box-shadow 0.28s;
+}
+
+.contact:hover {
+    border-color: transparent;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+
+
+.picture {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.picture img {
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.contact {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    border: 1px solid #918878;
+    background-color: #c4b8a3;
+    border-radius: 25px;
+    padding: 10px;
+    transition: border-color 0.28s, box-shadow 0.28s;
+    
+}
+
+.project:hover {
+    border-color: transparent;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+
+.project img {
+    border-radius: 50%;
+}
+
+
+#resume {
+    display: flex;
+    justify-content: center;
+}
