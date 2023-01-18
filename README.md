@@ -1,2 +1,3 @@
 # Dracoenix.github.io
-Personal Website
+
+This is a personal website for displaying projects I've worked on.
